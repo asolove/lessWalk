@@ -1,0 +1,15 @@
+{
+  "name"          : "lessWalk",
+  "description"   : "Walk Less Syntax Trees",
+  "url"           : "http://github.com/asolove/lessWalk",
+  "keywords"      : ["css", "parser", "lesscss", "browser"],
+  "author"        : "Adam Solove <asolove@gmail.com>",
+  "version"       : "0.0.1",
+  "main"          : "./lib/lessWalk/index",
+  "directories"   : { "test": "./test" },
+  "engines"       : { "node": ">=0.4.0" },
+  "devDependencies" : { "node": "~1.3.0" },
+  "scripts": {
+   "test": "make test"
+  }
+}
